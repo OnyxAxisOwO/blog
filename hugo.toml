@@ -1,0 +1,33 @@
+baseURL = 'https://onyxaxis.org/'
+languageCode = 'zh-cn'
+title = 'OnyxAxis'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "OnyxAxis"
+    Content = "欢迎来到我的博客"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
