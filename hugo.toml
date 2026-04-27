@@ -1,4 +1,4 @@
-baseURL = 'https://onyxaxis.org/'
+baseURL = 'https://blog.onyxaxis.org/'
 languageCode = 'zh-cn'
 title = 'OnyxAxis'
 theme = 'PaperMod'
