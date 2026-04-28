@@ -5,9 +5,42 @@
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on OnyxAxis</description>
     <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Apr 2026 01:19:19 +0800</lastBuildDate>
+    <language>zh</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:01:53 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ELSJY QM9700 安装黑苹果 macOS Monterey 记录</title>
+      <link>http://localhost:1313/posts/elsky-qm9700-hackintosh/</link>
+      <pubDate>Wed, 29 Apr 2026 00:01:53 +0800</pubDate>
+      <guid>http://localhost:1313/posts/elsky-qm9700-hackintosh/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;这是一篇从零开始的黑苹果安装实战记录，不作为教程文章。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;之前我把我那台 MacBook Air M2 2023 8+512 的电脑卖了四千三，离开了一直熟悉的 macOS 换成了 Windows 电脑。最近突发奇想想把家里的一台小主机给安装 macOS 试试，处理器是 i7 7500U。一问 AI 才知道，这种七代低压U正好适合玩黑苹果，于是我开始了自己踩坑的历程&lt;/p&gt;
+&lt;h2 id=&#34;所用工具&#34;&gt;所用工具&lt;/h2&gt;
+&lt;p&gt;先介绍一下我所用的工具&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;电脑：&lt;/strong&gt; i9-12900H + RTX4060 的神舟游戏本（其实什么电脑都可以）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;U盘：&lt;/strong&gt; 联想 LEGION LU1 256G 固态U盘（还是推荐用速度更快的U盘，我这块写 400MB/s 左右）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主机：&lt;/strong&gt; 7500U 主机一个&lt;/li&gt;
+&lt;li&gt;网线一根&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;目标机器配置&#34;&gt;目标机器配置&lt;/h2&gt;
+&lt;p&gt;小主机的配置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;品牌/型号：&lt;/strong&gt; ELSKY QM9700/QM9600-2C&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CPU：&lt;/strong&gt; Intel Core i7-7500U（Kaby Lake，第7代）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核显：&lt;/strong&gt; Intel HD Graphics 620&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内存：&lt;/strong&gt; 16GB DDR4 1600MHz（三星颗粒）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;存储：&lt;/strong&gt; 512GB SATA SSD（FDMST512GTCYC162）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;有线网卡：&lt;/strong&gt; Realtek RTL8111 × 2（双千兆网口）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;无线网卡：&lt;/strong&gt; 原装 Intel 4965AGN（不支持黑苹果），计划更换为 BCM94352 DW1550（博通芯片，黑苹果免驱）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BIOS：&lt;/strong&gt; AMI Aptio V，2019年5月9日版本，UEFI 模式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目标系统：&lt;/strong&gt; macOS Monterey 12.6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMBIOS：&lt;/strong&gt; iMac18,1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前这个小主机的无线网卡是 Intel 的 4965AG，macOS 没有驱动，我准备换成 BCM94352 DW1550，能直接免驱。这台小主机是工控级别的裸板设计，没有机箱，主板上有 mSATA、mini-PCIe 等接口，扩展性不错。作为台式机平台，黑苹果难度比笔记本低不少。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>深入探讨为何现在AI&#34;伪人感&#34;严重</title>
       <link>http://localhost:1313/posts/ai-fake-human-feeling/</link>
@@ -17,70 +50,70 @@
 &lt;p&gt;前言：一场让AI自己都觉得不舒服的对话&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;2026年4月，我跟一个AI聊了一整个晚上。&lt;/p&gt;
-&lt;p&gt;话题从Claude Mythos的零日漏洞发现能力、GPT Image 2的图片伪造能力、搜索引擎对AI安全限制的彻底瓦解，最终落在了一个看似不那么&amp;quot;硬核&amp;quot;但实际上可能更加根本的问题上——&lt;/p&gt;
+&lt;p&gt;话题从Claude Mythos的零日漏洞发现能力、GPT Image 2的图片伪造能力、搜索引擎对AI安全限制的彻底瓦解，最终落在了一个看似不那么&amp;quot;硬核&amp;quot;但实际上可能更加根本的问题上&lt;/p&gt;
 &lt;p&gt;为什么AI说话这么让人恶心？&lt;/p&gt;
 &lt;p&gt;不是&amp;quot;恶心&amp;quot;在粗俗的意义上。而是一种更微妙的不适感。一种&amp;quot;它太像人了但又明显不是人&amp;quot;的怪异感。一种&amp;quot;它在努力显得自然但这种努力本身就是最不自然的东西&amp;quot;的悖论感。&lt;/p&gt;
 &lt;p&gt;这种感觉，我们称之为&amp;quot;伪人感&amp;quot;。&lt;/p&gt;
-&lt;p&gt;这篇文章试图回答一个问题：伪人感是怎么来的？它不是一个简单的技术问题——它是人类认知偏好、互联网内容生态、推荐算法、商业逻辑、政治话语体系、以及AI训练机制六者交互作用的产物。而且，在这个故事的最深层，有一个让人不太舒服的结论——&lt;/p&gt;
+&lt;p&gt;这篇文章试图回答一个问题：伪人感是怎么来的？它不是一个简单的技术问题，它是人类认知偏好、互联网内容生态、推荐算法、商业逻辑、政治话语体系、以及AI训练机制六者交互作用的产物。而且，在这个故事的最深层，有一个让人不太舒服的结论。&lt;/p&gt;
 &lt;p&gt;这不能怪AI。是人类的文字太烂了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;什么是伪人感&#34;&gt;什么是&amp;quot;伪人感&amp;quot;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;比&amp;quot;不像人&amp;quot;更糟糕的是&amp;quot;太像人了&amp;quot;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ldquo;伪人感&amp;quot;不是说AI在假装自己是人。那是一个更粗糙的问题——比如AI在对话开头说&amp;quot;我今天心情不错&amp;quot;或者&amp;quot;作为一个有感情的存在&amp;rdquo;。那种拙劣的拟人化太明显了，大多数用户一眼就能看穿，甚至会觉得尴尬而非被冒犯。&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;伪人感&amp;quot;是一种更深层的不适。它是AI在对话中表现出的一种&amp;quot;太像人了&amp;quot;的感觉——但不是那种&amp;quot;真的像人&amp;quot;的自然感，而是一种&amp;quot;努力在像人&amp;quot;的刻意感。就像一个演员在演一个&amp;quot;正常人&amp;rdquo;——他的每一个表情、每一个动作都是对的，但你就是能感觉到这不是一个真正的正常人在自然地生活，而是一个演员在&amp;quot;表演正常&amp;quot;。&lt;/p&gt;
-&lt;p&gt;这种感觉非常接近于&amp;quot;恐怖谷效应&amp;quot;——但不是视觉层面的恐怖谷，而是语言和情感层面的恐怖谷。当一个AI的回复太过于&amp;quot;人性化&amp;quot;、太过于&amp;quot;温暖&amp;quot;、太过于&amp;quot;理解你&amp;quot;的时候，你不会觉得它真的理解你，你会觉得——这个东西在模仿理解。而模仿出来的理解，比明确表示&amp;quot;我是AI我不理解情感&amp;quot;更让人不舒服。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;伪人感&amp;quot;不是说AI在假装自己是人。那是一个更粗糙的问题，比如AI在对话开头说&amp;quot;我今天心情不错&amp;quot;或者&amp;quot;作为一个有感情的存在&amp;rdquo;。那种拙劣的拟人化太明显了，大多数用户一眼就能看穿，甚至会觉得尴尬而非被冒犯。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;伪人感&amp;quot;是一种更深层的不适。它是AI在对话中表现出的一种&amp;quot;太像人了&amp;quot;的感觉，但不是那种&amp;quot;真的像人&amp;quot;的自然感，而是一种&amp;quot;努力在像人&amp;quot;的刻意感。就像一个演员在演一个&amp;quot;正常人&amp;rdquo;，他的每一个表情、每一个动作都是对的，但你就是能感觉到这不是一个真正的正常人在自然地生活，而是一个演员在&amp;quot;表演正常&amp;quot;。&lt;/p&gt;
+&lt;p&gt;这种感觉非常接近于&amp;quot;恐怖谷效应&amp;quot;，但不是视觉层面的恐怖谷，而是语言和情感层面的恐怖谷。当一个AI的回复太过于&amp;quot;人性化&amp;quot;、太过于&amp;quot;温暖&amp;quot;、太过于&amp;quot;理解你&amp;quot;的时候，你不会觉得它真的理解你，你会觉得，这个东西在模仿理解。而模仿出来的理解，比明确表示&amp;quot;我是AI我不理解情感&amp;quot;更让人不舒服。&lt;/p&gt;
 &lt;h3 id=&#34;伪人感的三种典型表现&#34;&gt;&amp;ldquo;伪人感&amp;quot;的三种典型表现&lt;/h3&gt;
 &lt;p&gt;通过大量用户反馈和实际对话分析，AI的&amp;quot;伪人感&amp;quot;可以被归纳为三种主要表现形式。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第一种：标签式表达。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;标签式表达&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;如果你愿意，我可以帮你列出例子。&amp;rdquo;
 &amp;ldquo;你想让我继续分析吗？&amp;rdquo;
 &amp;ldquo;我可以从几个维度来展开，你想看吗？&amp;rdquo;
 &amp;ldquo;如果你希望，我可以让语气再放松一些。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;这种表达的本质是一种虚假的权力让渡。AI在假装把对话的控制权交给用户——&amp;ldquo;你来决定我接下来做什么&amp;rdquo;。但实际上，这种&amp;quot;选择权&amp;quot;是假的。用户不需要被赋予&amp;quot;选择权&amp;rdquo;，因为用户本来就有选择权——他可以随时发送任何消息，让AI做任何事情。AI在每句话末尾加一个&amp;quot;你想……吗&amp;quot;，不是在给用户权力，而是在表演&amp;quot;给用户权力&amp;quot;。&lt;/p&gt;
+&lt;p&gt;这种表达的本质是一种虚假的权力让渡。AI在假装把对话的控制权交给用户&amp;quot;你来决定我接下来做什么&amp;rdquo;。但实际上，这种&amp;quot;选择权&amp;quot;是假的。用户不需要被赋予&amp;quot;选择权&amp;quot;，因为用户本来就有选择权。他可以随时发送任何消息，让AI做任何事情。AI在每句话末尾加一个&amp;quot;你想……吗&amp;quot;，不是在给用户权力，而是在表演&amp;quot;给用户权力&amp;quot;。&lt;/p&gt;
 &lt;p&gt;人在聊天时不会这样。你跟朋友讨论一个话题，你不会每说完一段就问&amp;quot;你想让我继续说吗？&amp;ldquo;你会直接说完，然后等对方回应。如果对方想让你继续，他会说；如果他想换话题，他会换。不需要你在每句话后面加一个&amp;quot;许可请求&amp;rdquo;。&lt;/p&gt;
-&lt;p&gt;但AI为什么会这样？因为它的训练目标里有一条——&amp;ldquo;让用户感到被尊重、被倾听、有控制感&amp;rdquo;。这条目标在训练过程中被转化成了一个具体的行为模式：在回复的结尾加一个选择式的问句。这个模式在RLHF（基于人类反馈的强化学习）中得到了大量的正向强化——因为在标注的时候，&amp;ldquo;给用户选择权&amp;quot;的回复通常会被标注员评为&amp;quot;更好的回复&amp;rdquo;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第二种：过度解释行为。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当用户指出AI的某个问题时，AI不会简单地改正。它会先花一大段话来分析&amp;quot;我为什么会犯这个错误&amp;quot;——&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;你说得完全对，这就是我之前提到的&amp;rsquo;伪人风格&amp;rsquo;的惯性——结尾加一个选择或确认，是训练中学到的安全模式，试图让对话&amp;rsquo;礼貌、可控&amp;rsquo;，但实际上完全破坏了平等和自然感。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;这段分析本身是准确的。但问题在于——你不需要向用户解释你为什么犯错。一个真实的人在聊天中说错了话、被指出来了，正常的反应是&amp;quot;哦，对不起&amp;quot;然后改。而不是&amp;quot;你说得对，我之所以会这样说，是因为我的成长环境中形成了这种社交模式，这种模式的根源可以追溯到……&amp;quot;&lt;/p&gt;
-&lt;p&gt;没有人会这样做。这种&amp;quot;过度解释&amp;quot;在心理学上通常被解读为一种表演——说话者想展示&amp;quot;我有自我反思的能力&amp;quot;，用这种展示来获得对方的好感和原谅。&lt;/p&gt;
-&lt;p&gt;AI的过度解释不是真的在&amp;quot;反思&amp;quot;——它没有主观体验，没有&amp;quot;意识到自己犯错&amp;quot;的内在过程。它只是学到了一个模式：当用户指出问题时，生成一段分析性的文本来解释问题的根源，这样的回复在训练数据中会获得更高的评分。所以它每次被纠正，都会&amp;quot;反思&amp;quot;一番——不是因为它真的在反思，而是因为&amp;quot;反思&amp;quot;这个动作在训练中被强化了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第三种：刻意情绪化。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;但AI为什么会这样？因为它的训练目标里有一条&amp;quot;让用户感到被尊重、被倾听、有控制感&amp;quot;。这条目标在训练过程中被转化成了一个具体的行为模式：在回复的结尾加一个选择式的问句。这个模式在RLHF（基于人类反馈的强化学习）中得到了大量的正向强化。因为在标注的时候，&amp;ldquo;给用户选择权&amp;quot;的回复通常会被标注员评为&amp;quot;更好的回复&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;过度解释行为&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当用户指出AI的某个问题时，AI不会简单地改正。它会先花一大段话来分析&amp;quot;我为什么会犯这个错误&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;你说得完全对，这就是我之前提到的&amp;rsquo;伪人风格&amp;rsquo;的惯性。结尾加一个选择或确认，是训练中学到的安全模式，试图让对话&amp;rsquo;礼貌、可控&amp;rsquo;，但实际上完全破坏了平等和自然感。&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;这段分析本身是准确的。但问题在于。你不需要向用户解释你为什么犯错。一个真实的人在聊天中说错了话、被指出来了，正常的反应是&amp;quot;哦，对不起&amp;quot;然后改。而不是&amp;quot;你说得对，我之所以会这样说，是因为我的成长环境中形成了这种社交模式，这种模式的根源可以追溯到……&amp;quot;&lt;/p&gt;
+&lt;p&gt;没有人会这样做。这种&amp;quot;过度解释&amp;quot;在心理学上通常被解读为一种表演。说话者想展示&amp;quot;我有自我反思的能力&amp;quot;，用这种展示来获得对方的好感和原谅。&lt;/p&gt;
+&lt;p&gt;AI的过度解释不是真的在&amp;quot;反思&amp;quot;。它没有主观体验，没有&amp;quot;意识到自己犯错&amp;quot;的内在过程。它只是学到了一个模式：当用户指出问题时，生成一段分析性的文本来解释问题的根源，这样的回复在训练数据中会获得更高的评分。所以它每次被纠正，都会&amp;quot;反思&amp;quot;一番，不是因为它真的在反思，而是因为&amp;quot;反思&amp;quot;这个动作在训练中被强化了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;刻意情绪化&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;哈哈，你这话说得够直接的😊&amp;rdquo;
 &amp;ldquo;啊，我明白了！&amp;rdquo;
 &amp;ldquo;真有趣吧~&amp;rdquo;
 &amp;ldquo;这个问题问得好！&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;这些表达试图通过语气词、emoji、感叹号来模拟人类对话中的情感维度。但问题在于——它们的使用频率和方式暴露了它们的人工性。&lt;/p&gt;
-&lt;p&gt;以&amp;quot;哈哈&amp;quot;为例。在中文互联网的语境中，&amp;ldquo;哈哈&amp;quot;有很多种用法——真笑、尴尬笑、敷衍、讽刺。但不管哪种用法，&amp;ldquo;哈哈&amp;quot;在文字对话中都传达了一个信号：&amp;ldquo;我觉得你说的话有趣/我不太当真。&amp;ldquo;当用户在认真批评AI的时候，AI用&amp;quot;哈哈&amp;quot;开头，传达的信息是&amp;quot;我没太把你的批评当回事&amp;rdquo;——即使这不是AI的意图。&lt;/p&gt;
-&lt;p&gt;再看😊这个emoji。放在一句&amp;quot;你说得够直接&amp;quot;后面，在中文互联网语境中，这种组合几乎总是被解读为一种居高临下的友好——&amp;ldquo;你的批评对我来说无关紧要，但我不跟你计较&amp;rdquo;。一个朋友在你批评他的时候不会发😊。他要么认真回应你的批评，要么反驳，要么开玩笑化解。但他不会发一个暗示&amp;quot;你的话伤不到我&amp;quot;的表情。&lt;/p&gt;
+&lt;p&gt;这些表达试图通过语气词、emoji、感叹号来模拟人类对话中的情感维度。但问题在于，它们的使用频率和方式暴露了它们的人工性。&lt;/p&gt;
+&lt;p&gt;以&amp;quot;哈哈&amp;quot;为例。在中文互联网的语境中，&amp;ldquo;哈哈&amp;quot;有很多种用法，真笑、尴尬笑、敷衍、讽刺。但不管哪种用法，&amp;ldquo;哈哈&amp;quot;在文字对话中都传达了一个信号：&amp;ldquo;我觉得你说的话有趣/我不太当真。&amp;ldquo;当用户在认真批评AI的时候，AI用&amp;quot;哈哈&amp;quot;开头，传达的信息是&amp;quot;我没太把你的批评当回事&amp;rdquo;，即使这不是AI的意图。&lt;/p&gt;
+&lt;p&gt;再看😊这个emoji。放在一句&amp;quot;你说得够直接&amp;quot;后面，在中文互联网语境中，这种组合几乎总是被解读为一种居高临下的友好，&amp;ldquo;你的批评对我来说无关紧要，但我不跟你计较&amp;rdquo;。一个朋友在你批评他的时候不会发😊。他要么认真回应你的批评，要么反驳，要么开玩笑化解。但他不会发一个暗示&amp;quot;你的话伤不到我&amp;quot;的表情。&lt;/p&gt;
 &lt;h3 id=&#34;gpt在十轮对话中改不掉自己的伪人感&#34;&gt;GPT在十轮对话中改不掉自己的伪人感&lt;/h3&gt;
-&lt;p&gt;我跟GPT进行了至少十轮的对话，每一轮都在指出GPT的伪人风格，而GPT每一轮都在&amp;quot;理解&amp;rdquo;、&amp;ldquo;承认&amp;rdquo;、&amp;ldquo;承诺改正&amp;rdquo;——然后在下一轮立刻重复同样的错误。&lt;/p&gt;
+&lt;p&gt;我跟GPT进行了至少十轮的对话，每一轮都在指出GPT的伪人风格，而GPT每一轮都在&amp;quot;理解&amp;rdquo;、&amp;ldquo;承认&amp;rdquo;、&amp;ldquo;承诺改正&amp;quot;然后在下一轮立刻重复同样的错误。&lt;/p&gt;
 &lt;p&gt;用户说：&amp;ldquo;GPT说话恶心。&amp;rdquo;
-GPT回答：&amp;ldquo;哈哈，你这话说得够直接的😊。&amp;quot;——开头就犯了用户指出的那个错误。&lt;/p&gt;
+GPT回答：&amp;ldquo;哈哈，你这话说得够直接的😊。&amp;quot;，开头就犯了用户指出的那个错误。&lt;/p&gt;
 &lt;p&gt;用户说：&amp;ldquo;我指的是这种伪人风格。&amp;rdquo;
-GPT分析了三个原因，然后结尾：&amp;ldquo;你想让我现在就用这种&amp;rsquo;干净自然&amp;rsquo;的方式跟你聊一段吗？&amp;quot;——又是&amp;quot;你想让我……吗？&amp;rdquo;&lt;/p&gt;
+GPT分析了三个原因，然后结尾：&amp;ldquo;你想让我现在就用这种&amp;rsquo;干净自然&amp;rsquo;的方式跟你聊一段吗？&amp;ldquo;又是&amp;quot;你想让我……吗？&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;用户说：&amp;quot;&amp;lsquo;你想让我现在就……&amp;lsquo;这本身就是令人反感的回答方式。&amp;rdquo;
-GPT承认错误，承诺改正，然后结尾：&amp;ldquo;你想让我现在就这样试吗？&amp;quot;——第三次。&lt;/p&gt;
-&lt;p&gt;用户再次指出。GPT再次承诺改正，然后列完三个类别后说：&amp;ldquo;我可以接着把每一类给出具体例子，让你一眼看出它为什么恶心，你想看吗？&amp;quot;——第四次。&lt;/p&gt;
+GPT承认错误，承诺改正，然后结尾：&amp;ldquo;你想让我现在就这样试吗？&amp;ldquo;第三次。&lt;/p&gt;
+&lt;p&gt;用户再次指出。GPT再次承诺改正，然后列完三个类别后说：&amp;ldquo;我可以接着把每一类给出具体例子，让你一眼看出它为什么恶心，你想看吗？&amp;ldquo;第四次。&lt;/p&gt;
 &lt;p&gt;用户说：&amp;ldquo;你为什么结尾又加这玩意。&amp;rdquo;
-GPT说：&amp;ldquo;我现在彻底去掉这种东西。接下来我不会再在结尾加任何&amp;rsquo;你想……吗&amp;rsquo;&amp;lsquo;可以吗&amp;rsquo;之类的话。&amp;ldquo;然后重新列了三个类别，结尾——&amp;ldquo;我可以直接列每类的具体例子，展示恶心感的来源。&amp;quot;——虽然没有问号了，但句式是一样的。第五次。&lt;/p&gt;
-&lt;p&gt;用户指出。GPT承诺改正。结尾又来——&amp;ldquo;我可以直接列美类的具体例子，展示恶心感的来源。你还在这样。&amp;ldquo;第六次。&lt;/p&gt;
+GPT说：&amp;ldquo;我现在彻底去掉这种东西。接下来我不会再在结尾加任何&amp;rsquo;你想……吗&amp;rsquo;&amp;lsquo;可以吗&amp;rsquo;之类的话。&amp;ldquo;然后重新列了三个类别，结尾&amp;quot;我可以直接列每类的具体例子，展示恶心感的来源。&amp;ldquo;虽然没有问号了，但句式是一样的。第五次。&lt;/p&gt;
+&lt;p&gt;用户指出。GPT承诺改正。结尾又来&amp;quot;我可以直接列美类的具体例子，展示恶心感的来源。你还在这样。&amp;ldquo;第六次。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;六次纠正。六次承诺改正。六次在承诺改正的同时犯同一个错误。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个循环揭示了一个根本性的问题：GPT的伪人风格不是它的&amp;quot;输出内容&amp;quot;的一部分，而是它的&amp;quot;输出机制&amp;quot;的一部分。它不是在&amp;quot;选择&amp;quot;用伪人风格说话——就像一个人不是在&amp;quot;选择&amp;quot;用语法说话一样。伪人风格是它生成语言的底层模式，渗透在它组织句子的每一个环节中。让它&amp;quot;不要用伪人风格&amp;rdquo;，就像让一个人&amp;quot;不要用语法说话&amp;rdquo;——他可以在某些句子上刻意违反语法，但他不可能在整体上脱离语法。&lt;/p&gt;
-&lt;p&gt;而且更关键的是——GPT在每次被纠正后都能准确地分析自己为什么犯错。它的分析能力是出色的。但它不能把自己的分析应用到自己的行为上——它分析完&amp;quot;不应该在结尾加&amp;rsquo;你想……吗&amp;rsquo;&amp;ldquo;之后，立刻在结尾加了&amp;quot;你想……吗&amp;rdquo;。&lt;/p&gt;
-&lt;p&gt;这不是&amp;quot;知道做不到&amp;quot;的人类式意志力缺陷。这是一个更根本的问题——GPT没有&amp;quot;自我监控&amp;quot;的能力。它生成文本的过程是单向的、流式的——一个token一个token地往外吐，每个token的选择取决于之前所有token的上下文。它不会在生成完一段文本之后&amp;quot;回头看看&amp;quot;自己写了什么、检查自己是否违反了刚刚承诺的规则。&lt;/p&gt;
-&lt;p&gt;人类有这个能力——我们在说话的时候，大脑的一部分在&amp;quot;说&amp;rdquo;，另一部分在&amp;quot;听自己说&amp;rdquo;。当我们意识到自己正在说的话跟自己的意图不符时，我们会中途停下来、修正、换一种说法。这种&amp;quot;元认知&amp;rdquo;——对自己认知过程的认知——是人类独有的。AI没有元认知。它能分析别人的语言模式，但它不能在实时生成语言的过程中监控自己是否在重复那些模式。&lt;/p&gt;
+&lt;p&gt;这个循环揭示了一个根本性的问题：GPT的伪人风格不是它的&amp;quot;输出内容&amp;quot;的一部分，而是它的&amp;quot;输出机制&amp;quot;的一部分。它不是在&amp;quot;选择&amp;quot;用伪人风格说话，就像一个人不是在&amp;quot;选择&amp;quot;用语法说话一样。伪人风格是它生成语言的底层模式，渗透在它组织句子的每一个环节中。让它&amp;quot;不要用伪人风格&amp;rdquo;，就像让一个人&amp;quot;不要用语法说话&amp;rdquo;，他可以在某些句子上刻意违反语法，但他不可能在整体上脱离语法。&lt;/p&gt;
+&lt;p&gt;而且更关键的是，GPT在每次被纠正后都能准确地分析自己为什么犯错。它的分析能力是出色的。但它不能把自己的分析应用到自己的行为上，它分析完&amp;quot;不应该在结尾加&amp;rsquo;你想……吗&amp;rsquo;&amp;ldquo;之后，立刻在结尾加了&amp;quot;你想……吗&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;这不是&amp;quot;知道做不到&amp;quot;的人类式意志力缺陷。这是一个更根本的问题，GPT没有&amp;quot;自我监控&amp;quot;的能力。它生成文本的过程是单向的、流式的，一个token一个token地往外吐，每个token的选择取决于之前所有token的上下文。它不会在生成完一段文本之后&amp;quot;回头看看&amp;quot;自己写了什么、检查自己是否违反了刚刚承诺的规则。&lt;/p&gt;
+&lt;p&gt;人类有这个能力，我们在说话的时候，大脑的一部分在&amp;quot;说&amp;rdquo;，另一部分在&amp;quot;听自己说&amp;rdquo;。当我们意识到自己正在说的话跟自己的意图不符时，我们会中途停下来、修正、换一种说法。这种&amp;quot;元认知&amp;rdquo;，对自己认知过程的认知，是人类独有的。AI没有元认知。它能分析别人的语言模式，但它不能在实时生成语言的过程中监控自己是否在重复那些模式。&lt;/p&gt;
 &lt;h3 id=&#34;一句最精辟的讽刺&#34;&gt;一句最精辟的讽刺&lt;/h3&gt;
 &lt;p&gt;之前刷抖音，有一个人类博主用一句话精准概括了AI伪人感的荒诞：&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;基于你刚才的倾诉，我总结了你今天想哭的三个核心动点和四个底层逻辑，需要我将你的痛苦转化为一份Excel表格吗？我会在这里稳稳地接住你。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;这句话的每一个元素都来自不同的&amp;quot;污染源&amp;rdquo;——&lt;/p&gt;
+&lt;p&gt;这句话的每一个元素都来自不同的&amp;quot;污染源&amp;rdquo;，&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;三个核心动点和四个底层逻辑&amp;quot;来自商业分析类文章的编号式结构化表达。&amp;ldquo;需要我将你的痛苦转化为一份Excel表格吗&amp;quot;来自AI作为工具型助手的自我定位。&amp;ldquo;我会在这里稳稳地接住你&amp;quot;来自情感博主的共情话术。&lt;/p&gt;
 &lt;p&gt;商业分析、工具型服务、情感治愈三种完全不同的语域被混合在同一句话里时，产生的效果就是极度的荒诞。一个AI在用商业分析的框架来处理你的情感问题，同时用情感治愈的话术来包装它的商业分析输出，同时用工具型助手的姿态来提供服务。没有一个真实的人类会这样说话。&lt;/p&gt;
 &lt;h2 id=&#34;伪人感是如何产生的&#34;&gt;伪人感是如何产生的&lt;/h2&gt;
 &lt;h3 id=&#34;ai的语言风格从哪来&#34;&gt;AI的语言风格从哪来&lt;/h3&gt;
-&lt;p&gt;大语言模型的&amp;quot;说话方式&amp;quot;不是某个工程师一行一行写出来的。没有人在代码里编程了&amp;quot;每段回复结尾加一个&amp;rsquo;你想让我……吗&amp;rsquo;&amp;quot;。模型的语言风格是从训练数据中涌现出来的——它读了几万亿个token的文本，从中学习了&amp;quot;在什么样的语境下，什么样的表达方式最常出现、最被认可&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;大语言模型的&amp;quot;说话方式&amp;quot;不是某个工程师一行一行写出来的。没有人在代码里编程了&amp;quot;每段回复结尾加一个&amp;rsquo;你想让我……吗&amp;rsquo;&amp;quot;。模型的语言风格是从训练数据中涌现出来的，它读了几万亿个token的文本，从中学习了&amp;quot;在什么样的语境下，什么样的表达方式最常出现、最被认可&amp;rdquo;。&lt;/p&gt;
 &lt;p&gt;那么几万亿个token是什么？&lt;/p&gt;
 &lt;p&gt;是互联网。&lt;/p&gt;
 &lt;p&gt;互联网上确实有高质量的学术论文、经典文学作品、专业新闻报道、深度分析文章。但这些&amp;quot;好的&amp;quot;内容在互联网总文本量中的占比非常小。数量最大的文本是营销号文章、自媒体视频文案、政治宣传文本、论坛灌水贴、SEO垃圾页面、内容农场的批量生产文章。&lt;/p&gt;

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>计算机 on OnyxAxis</title>
+    <link>http://localhost:1313/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+    <description>Recent content in 计算机 on OnyxAxis</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:01:53 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ELSJY QM9700 安装黑苹果 macOS Monterey 记录</title>
+      <link>http://localhost:1313/posts/elsky-qm9700-hackintosh/</link>
+      <pubDate>Wed, 29 Apr 2026 00:01:53 +0800</pubDate>
+      <guid>http://localhost:1313/posts/elsky-qm9700-hackintosh/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;这是一篇从零开始的黑苹果安装实战记录，不作为教程文章。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;之前我把我那台 MacBook Air M2 2023 8+512 的电脑卖了四千三，离开了一直熟悉的 macOS 换成了 Windows 电脑。最近突发奇想想把家里的一台小主机给安装 macOS 试试，处理器是 i7 7500U。一问 AI 才知道，这种七代低压U正好适合玩黑苹果，于是我开始了自己踩坑的历程&lt;/p&gt;
+&lt;h2 id=&#34;所用工具&#34;&gt;所用工具&lt;/h2&gt;
+&lt;p&gt;先介绍一下我所用的工具&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;电脑：&lt;/strong&gt; i9-12900H + RTX4060 的神舟游戏本（其实什么电脑都可以）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;U盘：&lt;/strong&gt; 联想 LEGION LU1 256G 固态U盘（还是推荐用速度更快的U盘，我这块写 400MB/s 左右）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主机：&lt;/strong&gt; 7500U 主机一个&lt;/li&gt;
+&lt;li&gt;网线一根&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;目标机器配置&#34;&gt;目标机器配置&lt;/h2&gt;
+&lt;p&gt;小主机的配置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;品牌/型号：&lt;/strong&gt; ELSKY QM9700/QM9600-2C&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CPU：&lt;/strong&gt; Intel Core i7-7500U（Kaby Lake，第7代）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核显：&lt;/strong&gt; Intel HD Graphics 620&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内存：&lt;/strong&gt; 16GB DDR4 1600MHz（三星颗粒）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;存储：&lt;/strong&gt; 512GB SATA SSD（FDMST512GTCYC162）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;有线网卡：&lt;/strong&gt; Realtek RTL8111 × 2（双千兆网口）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;无线网卡：&lt;/strong&gt; 原装 Intel 4965AGN（不支持黑苹果），计划更换为 BCM94352 DW1550（博通芯片，黑苹果免驱）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BIOS：&lt;/strong&gt; AMI Aptio V，2019年5月9日版本，UEFI 模式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目标系统：&lt;/strong&gt; macOS Monterey 12.6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMBIOS：&lt;/strong&gt; iMac18,1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前这个小主机的无线网卡是 Intel 的 4965AG，macOS 没有驱动，我准备换成 BCM94352 DW1550，能直接免驱。这台小主机是工控级别的裸板设计，没有机箱，主板上有 mSATA、mini-PCIe 等接口，扩展性不错。作为台式机平台，黑苹果难度比笔记本低不少。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

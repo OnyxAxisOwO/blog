@@ -2,21 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2026-04-29T00:25:26+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-27T01:19:19+08:00</lastmod>
+    <lastmod>2026-04-29T00:25:26+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/elsky-qm9700-hackintosh/</loc>
+    <lastmod>2026-04-29T00:01:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/macos/</loc>
+    <lastmod>2026-04-29T00:01:53+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-04-29T00:01:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-29T00:01:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2026-04-29T00:01:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2026-04-27T01:19:19+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E4%BA%92%E8%81%94%E7%BD%91/</loc>
     <lastmod>2026-04-27T01:19:19+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ai-fake-human-feeling/</loc>
     <lastmod>2026-04-27T01:19:19+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2026-04-27T01:19:19+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

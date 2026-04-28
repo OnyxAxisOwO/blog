@@ -1,5 +1,5 @@
 baseURL = 'https://blog.onyxaxis.org/'
-languageCode = 'zh-cn'
+languageCode = 'zh'
 title = 'OnyxAxis'
 theme = 'PaperMod'
 
@@ -26,6 +26,12 @@ theme = 'PaperMod'
     name = "标签"
     url = "/tags/"
     weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
 
 
 
