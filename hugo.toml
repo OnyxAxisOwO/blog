@@ -1,5 +1,6 @@
 baseURL = 'https://blog.onyxaxis.org/'
 languageCode = 'zh'
+defaultContentLanguage = 'zh'
 title = 'OnyxAxis'
 theme = 'PaperMod'
 

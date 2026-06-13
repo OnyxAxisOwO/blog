@@ -20,7 +20,7 @@ OnyxAxis，16 岁高中学生，热爱技术，对 AI 有兴趣。
 
 以下是我目前正在维护和实验的一些主要项目：
 
-* **OnyxAxis AI** (`ai.onyxaxis.ai`)
+* **OnyxAxis AI** (`ai.onyxaxis.org`)
     一站式大模型聚合平台，集成多款主流模型供免费体验。
     
 * **Bouncer** (`bouncer-webui.pages.dev`)
